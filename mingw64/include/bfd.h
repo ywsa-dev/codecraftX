@@ -5,7 +5,7 @@
    "reloc.c", "simple.c", "stab-syms.c", "stabs.c" and "targets.c".
    Run "make headers" in your build bfd/ to regenerate.  */
 
-/* Main header file for the bfd library -- portable access to object files.
+/* Main  header file for the bfd library -- portable access to object files.
 
    Copyright (C) 1990-2024 Free Software Foundation, Inc.
 

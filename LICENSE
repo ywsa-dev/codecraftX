@@ -1,0 +1,104 @@
+Cpp Compiler GUI - Custom License
+
+Copyright (c) 2026 ywsa-dev
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+1. **NO WARRANTY AND LIABILITY DISCLAIMER**
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+   SOFTWARE.
+
+2. **USER CODE RESPONSIBILITY**
+
+   a. **Sole Responsibility of User-Generated Code**
+      The Software is a development tool that compiles and executes code written
+      by the user. The user retains full and sole responsibility for any code
+      they write, compile, or execute using this Software.
+
+   b. **No Liability for User Actions**
+      The authors and copyright holders of this Software shall not be held
+      liable for any damages, losses, or legal consequences arising from:
+      - The use of this Software to create, compile, or execute any code
+      - The functionality, behavior, or outcomes of user-generated code
+      - Any malicious, harmful, illegal, or unauthorized code created or
+        compiled using this Software
+      - Any damage to systems, data, or third parties caused by user-generated
+        code
+
+   c. **User Assumes Full Risk**
+      By using this Software, the user acknowledges and accepts that:
+      - They are solely responsible for the code they create
+      - They assume all risks associated with compiling and executing their code
+      - They are responsible for ensuring their code complies with all applicable
+        laws and regulations
+      - They will not hold the Software authors liable for any consequences
+        of their code
+
+3. **INTELLECTUAL PROPERTY AND CODE OWNERSHIP**
+
+   a. **User Code Ownership**
+      All code written, compiled, or executed by the user using this Software
+      remains the sole property of the user.
+
+   b. **Software Ownership**
+      This Software and its source code are the property of the copyright holders
+      as stated above.
+
+4. **PROHIBITED USE**
+
+   Users are prohibited from using this Software to:
+   - Create, develop, or distribute malware, viruses, ransomware, or any other
+     malicious software
+   - Conduct illegal activities or create code that violates applicable laws
+   - Harm, damage, or disrupt computer systems, networks, or data
+   - Create code that infringes on the intellectual property rights of others
+
+5. **INDEMNIFICATION**
+
+   The user agrees to indemnify, defend, and hold harmless the authors and
+   copyright holders of this Software from and against any and all claims,
+   liabilities, damages, losses, costs, expenses, or fees (including reasonable
+   attorneys' fees) arising from or relating to:
+   - The user's use of the Software
+   - Any code written, compiled, or executed by the user
+   - Any violation of applicable laws or regulations by the user
+
+6. **GOVERNING LAW**
+
+   This license shall be governed by and construed in accordance with the laws of
+   [Your Country/State], without regard to its conflict of law provisions.
+
+7. **ACKNOWLEDGMENT**
+
+   By using, copying, modifying, or distributing this Software, the user
+   acknowledges that they have read, understood, and agree to be bound by the
+   terms and conditions of this license.
+
+---
+
+**DISCLAIMER**
+
+This Software is a tool for legitimate software development purposes only.
+The authors do not endorse, support, or encourage the use of this Software for
+any illegal, malicious, or harmful activities. Users are expected to use this
+Software responsibly and in compliance with all applicable laws.
+
+---
+
+**Contact**
+
+For questions regarding this license, please contact:
+[Your Email Address]
+
+---

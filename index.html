@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CodeCraft X</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="title">
+                <span class="icon">🚀</span>
+                <h1>CodeCraft X</h1>
+            </div>
+            <div class="header-actions">
+                <button class="btn btn-run" id="runBtn">▶ Run (F9)</button>
+                <button class="btn btn-save" id="saveBtn">💾 Save</button>
+            </div>
+        </div>
+
+        <div class="info-bar">
+            <span>✏️ Write your C++ code below. Press <kbd>F9</kbd> to compile and run.</span>
+        </div>
+
+        <div class="editor-container">
+            <div class="editor-header">
+                <span class="editor-title">📄 compiler.cpp</span>
+                <span class="line-count" id="lineCount">0 lines</span>
+            </div>
+            <div class="editor-wrapper">
+                <div class="line-numbers" id="lineNumbers"></div>
+                <textarea id="codeEditor" spellcheck="false"></textarea>
+            </div>
+        </div>
+
+        <div class="output-container">
+            <div class="output-header">
+                <span class="output-title">📋 Output</span>
+                <button class="btn-clear" id="clearBtn">Clear</button>
+            </div>
+            <div class="output-content" id="outputContent">
+                <span class="output-placeholder">Ready. Press F9 to compile...</span>
+            </div>
+        </div>
+
+        <div class="status-bar">
+            <span id="statusText">✅ Ready</span>
+            <span id="statusTime"></span>
+        </div>
+    </div>
+
+    <script src="renderer.js"></script>
+</body>
+</html>

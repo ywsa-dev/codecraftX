@@ -268,4 +268,4 @@ loadCode();
 setStatus('Ready', '#4ec9b0');
 addOutput('Cpp Compiler started!', 'info');
 addOutput('Write your code and press F9 to compile & run', 'info');
-addOutput('Auto-pause added only during build, removed after!', 'success');
+addOutput('Auto-pause added only during build, removed after!', 'success'); 

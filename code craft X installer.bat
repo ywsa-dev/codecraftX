@@ -34,5 +34,6 @@ del mingw.zip
 
 color 7
 rmdir /s /q .git
+npm install
 echo finish download!
 pause

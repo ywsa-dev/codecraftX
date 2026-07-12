@@ -1,10 +1,9 @@
 # 🚀 CodeCraft X
 
 **CodeCraft X** is a lightweight, Visual Studio-style C++ IDE built with Electron.  
-It includes a built-in **MinGW-w64 (g++)** compiler, so you can compile and run C++ code instantly — no separate compiler installation required!
+It provides a clean and efficient environment for writing, compiling, and running your C++ programs. With a quick initial setup, you can compile and run C++ code instantly!
 
-Whether you're a beginner learning C++ or an experienced developer looking for a fast, minimalist IDE, CodeCraft X provides a clean and efficient environment for writing, compiling, and running your C++ programs.
-(run:compiler.bat)
+(run: compiler.bat)
  
 ---
 
@@ -20,10 +19,10 @@ Whether you're a beginner learning C++ or an experienced developer looking for a
 - See output immediately after compilation
 - No need to manually open a terminal
 
-### 🔧 Built-in g++ Compiler
-- **No need to install MinGW or GCC!**
-- g++ is included in the application package
-- Works right out of the box on Windows
+### 🔧 Easy Compiler Setup
+- **No manual MinGW or GCC installation required!**
+- Simply run the initialization script (`mingw64init.bat`) to automatically download and set up the g++ compiler.
+- Once initialized, it works right out of the box on Windows.
 
 ### 📋 Detailed Error Output
 - Clear compilation error messages
@@ -46,26 +45,19 @@ Whether you're a beginner learning C++ or an experienced developer looking for a
 
 ---
 
-## 📦 Requirements
+## 📦 Requirements & Setup
+
+To run CodeCraft X, you need to set up the Node.js environment and initialize the C++ compiler.
 
 ### 1. Node.js & npm (Required)
 
-This application requires **Node.js** and **npm** to run.
-
-#### What is Node.js?
 Node.js is a JavaScript runtime that allows CodeCraft X to run as a desktop application. npm (Node Package Manager) is used to install the necessary libraries and dependencies.
 
-#### Install npm
-
-1. cd (codecraft folder)
-2. npm install
----
-#### Install Node.js
-
+#### How to Install Node.js
 1. Download Node.js from: [https://nodejs.org/](https://nodejs.org/)
-2. Choose the **LTS version** (Long-Term Support) - this is the most stable version
-3. Run the installer and follow the installation steps
-4. Verify installation:
+2. Choose the **LTS version** (Long-Term Support) for the best stability.
+3. Run the installer and follow the installation steps.
+4. Verify the installation by running these commands in your terminal:
    ```bash
    node --version
    npm --version

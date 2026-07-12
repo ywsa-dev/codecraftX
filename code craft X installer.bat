@@ -37,3 +37,4 @@ rmdir /s /q .git
 npm install
 echo finish download!
 pause
+ 

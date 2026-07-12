@@ -272,7 +272,7 @@ enum report_method
 {
   /* This is the initial value when then link_info structure is created.
      It allows the various stages of the linker to determine whether they
-     allowed to set the value.  */
+     allowed to set the value.   */
   RM_NOT_YET_SET = 0,
   RM_IGNORE,
   RM_DIAGNOSE,

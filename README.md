@@ -58,3 +58,13 @@ Node.js is a JavaScript runtime that allows CodeCraft X to run as a desktop appl
 
 1. cd (codecraft folder)
 2. npm install
+---
+#### Install Node.js
+
+1. Download Node.js from: [https://nodejs.org/](https://nodejs.org/)
+2. Choose the **LTS version** (Long-Term Support) - this is the most stable version
+3. Run the installer and follow the installation steps
+4. Verify installation:
+   ```bash
+   node --version
+   npm --version

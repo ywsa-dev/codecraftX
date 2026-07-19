@@ -1,12 +1,14 @@
 {
-  "name": "cpp-compiler-gui",
+  "name": "codecraft-x",
   "version": "1.0.0",
-  "description": "C++ Compiler with GUI",
+  "description": "Visual Studio Style C++ IDE with built-in g++ compiler",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
+  "author": "",
+  "license": "SEE LICENSE IN LICENSE",
   "devDependencies": {
     "electron": "^28.0.0"
   }
-} 
+}

@@ -171,6 +171,8 @@ body {
 #lineNumbers span {
     display: block;
     font-family: 'Consolas', monospace;
+    height: 1.6em;
+    line-height: 1.6;
 }
 
 #codeEditor {

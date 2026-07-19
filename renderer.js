@@ -168,6 +168,13 @@ function updateLineNumbers() {
 }
 
 // =============================================
+// 라인 번호 스크롤 동기화
+// =============================================
+editor.addEventListener('scroll', () => {
+    lineNumbers.scrollTop = editor.scrollTop;
+});
+
+// =============================================
 // Output Functions
 // =============================================
 function addOutput(text, type = 'info') {
@@ -221,31 +228,31 @@ function openLinkerSettingsWindow() {
 
     // Modal HTML
     const modalHtml = `
-        <div id="linkerModal" style="position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.7); display:flex; justify-content:center; align-items:center; z-index:9999; font-family: 'Segoe UI', sans-serif;">
-            <div style="background:#2d2d2d; border-radius:12px; padding:30px; width:550px; max-height:80vh; overflow-y:auto; color:#d4d4d4; border:1px solid #4ec9b0; box-shadow:0 10px 40px rgba(0,0,0,0.8);">
+        <div id="linkerModal" style="position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.7); display:flex; justify-content:center; align-items:center; z-index:9999; font-family:inherit;">
+            <div style="background:#2d2d2d; border-radius:12px; padding:30px; width:550px; max-height:80vh; overflow-y:auto; color:#d4d4d4; border:1px solid #4ec9b0; box-shadow:0 10px 40px rgba(0,0,0,0.5);">
                 <h2 style="color:#4ec9b0; margin-top:0; border-bottom:1px solid #444; padding-bottom:10px;">🔗 Linker Settings</h2>
                 
                 <div style="margin-bottom:15px;">
                     <label style="display:block; margin-bottom:5px; font-weight:bold; color:#ccc;">Library Paths (-L)</label>
-                    <textarea id="linkerLibPaths" rows="3" style="width:100%; background:#1e1e1e; color:#d4d4d4; border:1px solid #444; border-radius:4px; padding:8px; font-family:Consolas, monospace; font-size:13px;">${currentLibPaths}</textarea>
+                    <textarea id="linkerLibPaths" rows="3" style="width:100%; background:#1e1e1e; color:#d4d4d4; border:1px solid #444; border-radius:4px; padding:8px; font-family:Consolas, monospace; resize:none;">${currentLibPaths}</textarea>
                     <div style="font-size:11px; color:#888; margin-top:4px;">One path per line (e.g., ./lib)</div>
                 </div>
 
                 <div style="margin-bottom:15px;">
                     <label style="display:block; margin-bottom:5px; font-weight:bold; color:#ccc;">Libraries (-l)</label>
-                    <textarea id="linkerLibs" rows="3" style="width:100%; background:#1e1e1e; color:#d4d4d4; border:1px solid #444; border-radius:4px; padding:8px; font-family:Consolas, monospace; font-size:13px;">${currentLibs}</textarea>
+                    <textarea id="linkerLibs" rows="3" style="width:100%; background:#1e1e1e; color:#d4d4d4; border:1px solid #444; border-radius:4px; padding:8px; font-family:Consolas, monospace; resize:none;">${currentLibs}</textarea>
                     <div style="font-size:11px; color:#888; margin-top:4px;">One library per line (e.g., winmm)</div>
                 </div>
 
                 <div style="margin-bottom:15px;">
                     <label style="display:block; margin-bottom:5px; font-weight:bold; color:#ccc;">Include Paths (-I)</label>
-                    <textarea id="linkerIncludes" rows="3" style="width:100%; background:#1e1e1e; color:#d4d4d4; border:1px solid #444; border-radius:4px; padding:8px; font-family:Consolas, monospace; font-size:13px;">${currentIncludes}</textarea>
+                    <textarea id="linkerIncludes" rows="3" style="width:100%; background:#1e1e1e; color:#d4d4d4; border:1px solid #444; border-radius:4px; padding:8px; font-family:Consolas, monospace; resize:none;">${currentIncludes}</textarea>
                     <div style="font-size:11px; color:#888; margin-top:4px;">One path per line (e.g., ./include)</div>
                 </div>
 
                 <div style="margin-bottom:20px;">
                     <label style="display:block; margin-bottom:5px; font-weight:bold; color:#ccc;">Extra Options</label>
-                    <input id="linkerExtras" type="text" style="width:100%; background:#1e1e1e; color:#d4d4d4; border:1px solid #444; border-radius:4px; padding:8px; font-family:Consolas, monospace; font-size:13px;" value="${currentExtras}" placeholder="-static -Wall">
+                    <input id="linkerExtras" type="text" style="width:100%; background:#1e1e1e; color:#d4d4d4; border:1px solid #444; border-radius:4px; padding:8px; font-family:Consolas, monospace;" value="${currentExtras}">
                     <div style="font-size:11px; color:#888; margin-top:4px;">Separate with space (e.g., -static -Wall)</div>
                 </div>
 
